@@ -274,9 +274,11 @@
         gap:            40px;
         }
 
+
     /*=====================================================*/
     .get-started__link {
         display:         flex;
+        flex-direction: column;
         justify-content: center;
         align-items:     center;
         }

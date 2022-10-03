@@ -23,7 +23,7 @@
 
 .menu__list {
     display: flex;
-    gap:     92px;
+    gap:     75px;
     }
 
 .menu__item {
@@ -33,7 +33,23 @@
     line-height:    2;
     }
 
-.menu__link:hover {
+.menu__link.active {
+    font-weight:    700;
     color:      #DA7736;
     transition: all .3s;
+    }
+
+.menu__link:hover {
+    display:    block;
+    color:      #DA7736;
+    transform:  scale(1.08);
+    transition: all .3s;
+    }
+
+.copyright {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 8px;
     }

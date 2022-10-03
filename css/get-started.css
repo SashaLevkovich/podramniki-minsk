@@ -58,6 +58,27 @@
     }
 
 /*=====================================================*/
+.get-started__link {
+    display:         flex;
+    justify-content: flex-start;
+    align-items:     center;
+    gap:             20px;
+    }
+
+.get-started__phone {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    }
+
+.get-started__phone:hover {
+    color:          #DA7736;
+    transition: all .3s;
+    transform:        scale(1.08);
+    }
+
+
+/*=====================================================*/
 
 .btn {
     display:         block;
