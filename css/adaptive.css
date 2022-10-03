@@ -96,6 +96,10 @@
         max-width: 750px;
         }
 
+    .header__container {
+        padding: 5px 10px;
+        }
+
     .header__body {
         flex-direction: column;
         gap:            20px;
@@ -149,6 +153,7 @@
         gap:   60px;
         }
 
+    /*=====================================================*/
     .card {
         width: 450px;
         }
@@ -298,9 +303,9 @@
         }
 
     /*=====================================================*/
-.why__items {
-    gap: 80px;
-    }
+    .why__items {
+        gap: 80px;
+        }
 
     /*=====================================================*/
     .feedback__cards {
@@ -308,6 +313,7 @@
         gap:   135px;
         }
 
+    /*=====================================================*/
     .card {
         flex-direction: column;
         width:          450px;
@@ -322,7 +328,6 @@
 
     .card__text, card__text {
         text-align: center;
-        font-size:  8px;
         }
     }
 
@@ -334,11 +339,6 @@
         }
 
     /*=====================================================*/
-    .get-started {
-        padding: 200px 0 50px 0;
-        }
-
-    /*=====================================================*/
     .reviews__item {
         background-image: url("../img/podramnik320.png");
         padding:          10px;
@@ -346,6 +346,12 @@
         height:           365px;
         }
 
+    /*=====================================================*/
+    .why__items {
+        gap: 44px;
+        }
+
+    /*=====================================================*/
     .item__body {
         padding: 70px 0 0 22px;
         }
@@ -353,5 +359,15 @@
     .item__review {
         font-weight: 400;
         line-height: 20px;
+        }
+    /*=====================================================*/
+    .card__text {
+        width: 196px;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        line-height: 1.3em;
+        height: 3.9em;
         }
     }

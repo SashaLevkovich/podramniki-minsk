@@ -55,12 +55,14 @@
 
 .card__author {
     font-weight: 700;
-    font-size:   calc(12px + 2 * (100vw / 1920));
+    font-size:   calc(14px + 6 * (100vw / 1920));
     line-height: 18px;
     }
 
 .card__text {
     font-weight: 400;
-    font-size:   calc(14px + 2 * (100vw / 1920));
+    font-size:   calc(10px + 6 * (100vw / 1920));
     line-height: 20px;
     }
+
+
