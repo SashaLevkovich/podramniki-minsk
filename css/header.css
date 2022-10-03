@@ -1,0 +1,39 @@
+.header__body {
+    display:     flex;
+    align-items: center;
+
+    height:      75px;
+    }
+
+.header__menu {
+    flex: 1 1 auto;
+    }
+
+.header__burger {
+    display: none;
+    }
+
+/*=====================================================*/
+
+.menu {
+    display:         flex;
+    justify-content: flex-end;
+    padding:         8px 15px;
+    }
+
+.menu__list {
+    display: flex;
+    gap:     92px;
+    }
+
+.menu__item {
+    text-transform: uppercase;
+    font-weight:    400;
+    font-size:      16px;
+    line-height:    2;
+    }
+
+.menu__link:hover {
+    color:      #DA7736;
+    transition: all .3s;
+    }

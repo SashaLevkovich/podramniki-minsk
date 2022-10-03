@@ -1,0 +1,25 @@
+.footer {
+    width:      100%;
+    padding:    20px;
+    height:     256px;
+    background: #F9F9F9;
+    }
+
+.footer__container {
+    display:         flex;
+    flex-direction:  column;
+    justify-content: center;
+    align-items:     center;
+    gap:             18px;
+    }
+
+.footer__menu {
+    justify-content: center;
+    }
+
+.footer__logo {
+    width:           100%;
+    display:         flex;
+    justify-content: center;
+    align-items:     center;
+    }

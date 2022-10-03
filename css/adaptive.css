@@ -1,0 +1,348 @@
+@media (min-width: 1441px) {
+    .why {
+        padding-top:      70px;
+        background-color: #F9F9F9;
+        }
+    }
+
+@media (max-width: 1161px) {
+    .reviews__items {
+        max-width: 880px;
+        gap:       25px;
+        }
+
+    .reviews__item {
+        background-image: url("../img/podramnik320.png");
+        padding:          10px;
+        width:            275px;
+        height:           365px;
+        }
+
+    .item__body {
+        padding: 70px 0 0 22px;
+        }
+
+    .item__review {
+        font-weight: 400;
+        line-height: 20px;
+        }
+    }
+
+@media (max-width: 1087px) {
+    [class*="__container"] {
+        max-width: 970px;
+        }
+
+    /*=====================================================*/
+    .menu__list {
+        gap: 40px;
+        }
+
+    /*=====================================================*/
+    .reviews__items {
+        max-width: 880px;
+        gap:       25px;
+        }
+
+    .reviews__item {
+        background-image: url("../img/podramnik320.png");
+        padding:          10px;
+        width:            275px;
+        height:           365px;
+        }
+
+    .item__body {
+        padding: 70px 0 0 22px;
+        }
+
+    .item__review {
+        font-weight: 400;
+        line-height: 20px;
+        }
+
+
+    /*=====================================================*/
+    .feedback__cards {
+        width: 750px;
+        }
+
+    .card {
+        width: 750px;
+        }
+
+    .card__reviews {
+        width: 750px;
+        }
+    }
+
+@media (max-width: 1300px) {
+    .get-started {
+        height:           550px;
+        padding-top:      100px;
+        background-image: url("../img/getStarted/background1300.svg");
+        }
+
+    .wht {
+        background-image: url("../img/Why/background1300.svg");
+        }
+
+    .contact {
+        background-image: url("../img/Contact/background1300.svg");
+        }
+    }
+
+@media (max-width: 991.98px) {
+    [class*="__container"] {
+        max-width: 750px;
+        }
+
+    .header__body {
+        flex-direction: column;
+        gap:            20px;
+        }
+
+    /*=====================================================*/
+    .get-started {
+        padding-top:      195px;
+        padding-bottom:   140px;
+        background-image: none;
+        }
+
+    .get-started__container {
+        align-items: center;
+        }
+
+    /*=====================================================*/
+    .block-text {
+        padding:       0 10px;
+        margin-bottom: 40px;
+        text-align:    center;
+        }
+
+    /*=====================================================*/
+    .menu__list {
+        gap: 75px;
+        }
+
+    /*=====================================================*/
+    .items__item {
+        width: 100px;
+        }
+
+    /*=====================================================*/
+    .why {
+        background-image: none;
+        }
+
+    /*=====================================================*/
+    .contact {
+        background-image: none;
+        }
+
+    .contact__info {
+        align-items: center;
+        }
+
+    /*=====================================================*/
+    .feedback__cards {
+        width: 450px;
+        gap:   60px;
+        }
+
+    .card {
+        width: 450px;
+        }
+
+    .card__reviews {
+        gap: 10px;
+        }
+
+    .card__reviews {
+        width: 450px;
+        }
+    }
+
+@media (max-width: 767.98px) {
+    [class*="__container"] {
+        max-width: none;
+        }
+
+    .get-started {
+        padding: 220px 0;
+        }
+
+    /*=====================================================*/
+    .header__burger {
+        display:  block;
+        position: relative;
+        width:    30px;
+        height:   16px;
+        z-index:  100;
+        }
+
+    .header__burger:before,
+    .header__burger:after {
+        content:          "";
+        background-color: #000;
+        position:         absolute;
+        width:            100%;
+        height:           2px;
+        left:             0;
+        }
+
+    .header__burger:before {
+        top:        0;
+        transition: all .3s;
+        }
+
+    .header__burger:after {
+        bottom:     0;
+        transition: all .3s;
+        }
+
+    .header__burger.close::before {
+        transform:  rotate(45deg);
+        top:        7px;
+        transition: all .3s;
+
+        }
+
+    .header__burger.close::after {
+        transform:  rotate(-45deg);
+        bottom:     7px;
+        transition: all .3s;
+
+        }
+
+    .header__burger span {
+        position:         absolute;
+        background-color: #000;
+        left:             0;
+        width:            100%;
+        height:           2px;
+        top:              7px;
+        transition:       all .3s;
+        }
+
+    .header__burger.close span {
+        opacity:    0;
+        transition: all .3s;
+
+        }
+
+    .header__body {
+        flex-direction:  row;
+        justify-content: space-between;
+        height:          50px;
+        }
+
+    .header__menu {
+        position: fixed;
+        top:      0;
+        left:     0;
+        width:    100%;
+        height:   100%;
+        }
+
+    /*=====================================================*/
+    .menu {
+        width:      100vw;
+        height:     100vh;
+
+        padding:    0;
+
+        opacity:    0;
+        transform:  translateY(1000px);
+        transition: all .3s;
+        }
+
+    .menu.open {
+        opacity:          1;
+        background-color: #F9F9F9;
+        padding:          20px;
+        transform:        translateY(50px);
+        transition:       all .3s;
+        }
+
+    .menu__list {
+        flex-direction: column;
+        gap:            40px;
+        }
+
+    /*=====================================================*/
+    .get-started__link {
+        display:         flex;
+        justify-content: center;
+        align-items:     center;
+        }
+
+    /*=====================================================*/
+    .about__text {
+        text-align: center;
+        }
+
+    /*=====================================================*/
+    .block-text {
+        padding:       0 10px;
+        margin-bottom: 40px;
+        text-align:    center;
+        }
+
+    /*=====================================================*/
+    .reviews__item {
+        max-width: 880px;
+        }
+
+    /*=====================================================*/
+    .feedback__cards {
+        width: 300px;
+        gap:   135px;
+        }
+
+    .card {
+        flex-direction: column;
+        width:          450px;
+
+        }
+
+    .card__reviews {
+        align-items: center;
+        width:       300px;
+        gap:         10px;
+        }
+
+    .card__text, card__text {
+        text-align: center;
+        font-size:  8px;
+        }
+    }
+
+
+@media (max-width: 375px) {
+    .logo {
+        flex:     0 0 45px;
+        overflow: hidden;
+        }
+
+    /*=====================================================*/
+    .get-started {
+        padding: 200px 0 50px 0;
+        }
+
+    /*=====================================================*/
+    .reviews__item {
+        background-image: url("../img/podramnik320.png");
+        padding:          10px;
+        width:            275px;
+        height:           365px;
+        }
+
+    .item__body {
+        padding: 70px 0 0 22px;
+        }
+
+    .item__review {
+        font-weight: 400;
+        line-height: 20px;
+        }
+    }

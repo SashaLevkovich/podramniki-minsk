@@ -1,0 +1,60 @@
+.why {
+    padding:             120px 0;
+    background-image:    url("../img/Why/background1440.svg");
+    background-repeat:   no-repeat;
+    background-position: right;
+    }
+
+.why__container {
+    display:         flex;
+    flex-direction:  column;
+    justify-content: center;
+    align-items:     center;
+    }
+
+.why__items {
+    max-width:       730px;
+    padding:         10px 20px;
+    display:         flex;
+    justify-content: center;
+    align-items:     center;
+    flex-wrap:       wrap;
+    gap:             109px;
+    }
+
+.items__item {
+    width:           152px;
+    display:         flex;
+    gap:             25px;
+    flex-direction:  column;
+    justify-content: center;
+    align-items:     center;
+    text-align:      center;
+    }
+
+/*=============================================*/
+
+.title {
+    display:         flex;
+    justify-content: center;
+    align-items:     center;
+    flex-direction:  column;
+    text-transform:  uppercase;
+    gap:             24px;
+    font-weight:     700;
+    font-size:       28px;
+    line-height:     35px;
+    text-align:      center;
+    letter-spacing:  0.17em;
+    margin-bottom:   72px;
+    }
+
+.title:after {
+    content:       "";
+    display:       block;
+    width:         120px;
+    height:        9px;
+    background:    #DA7736;
+    border-radius: 1px;
+    }
+

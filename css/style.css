@@ -1,0 +1,54 @@
+@import "reset.css";
+@import "header.css";
+@import "get-started.css";
+@import "about.css";
+@import "why.css";
+@import "reviews.css";
+@import "contact.css";
+@import "footer.css";
+@import "feedback.css";
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size:   12px;
+    }
+
+.wrapper {
+    overflow:       hidden;
+    display:        flex;
+    flex-direction: column;
+    min-height:     100%;
+    }
+
+.header {
+    position:   absolute;
+    width:      100%;
+    top:        0;
+    left:       0;
+    right:      0;
+    transition: all 1s;
+    z-index:    50;
+    }
+
+.fix {
+    position:         fixed;
+    transition:       all 1s;
+    background-color: #F9F9F9;
+    box-shadow:       0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+.hide {
+    top:        -100px;
+    transition: all 1s;
+
+    }
+
+.main {
+    flex: 1 1 auto;
+    }
+
+[class*="__container"] {
+    max-width: 1330px;
+    margin:    0 auto;
+    padding:   0 15px;
+    }

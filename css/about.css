@@ -1,0 +1,37 @@
+.about {
+    display:          flex;
+    justify-content:  center;
+    align-items:      center;
+    padding:          100px 0;
+    height:           950px;
+    background-color: #F9F9F9;
+    }
+
+.about__container {
+    display:         flex;
+    justify-content: center;
+    align-items:     center;
+    flex-wrap:       wrap;
+    }
+
+.about__body {
+    display:         flex;
+    justify-content: center;
+    align-items:     center;
+    gap:             40px;
+    flex-wrap:       wrap;
+    max-width:       775px;
+    }
+
+.about__img {
+    width:  100%;
+    height: auto;
+    }
+
+.about__text {
+    font-weight: 400;
+    font-size:   14px;
+    line-height: 20px;
+    }
+
+

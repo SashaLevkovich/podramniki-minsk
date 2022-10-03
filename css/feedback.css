@@ -1,0 +1,66 @@
+.feedback {
+    padding: 125px 0 50px 0;
+    }
+
+.feedback__container {
+    display:         flex;
+    flex-direction:  column;
+    justify-content: center;
+    align-items:     center;
+    gap:             50px;
+    }
+
+.feedback__breadcrumbs {
+    font-weight: 700;
+    font-size:   16px;
+    line-height: 20px;
+    }
+
+.feedback__cards {
+    max-width:       1062px;
+    display:         flex;
+    flex-direction:  column;
+    align-items:     center;
+    justify-content: center;
+    gap:             41px;
+    }
+
+.feedback__breadcrumbs a:hover {
+    color:      #DA7736;
+    transition: all .3s;
+    }
+
+.card {
+    max-width:       1062px;
+    max-height:      100px;
+    display:         flex;
+    justify-content: center;
+    align-items:     center;
+    gap:             28px;
+    }
+
+.card:hover {
+    transform:  scale(1.01);
+    transition: all .3s;
+    }
+
+.card__reviews {
+    width:           935px;
+    display:         flex;
+    flex-direction:  column;
+    justify-content: center;
+    align-items:     flex-start;
+    gap:             25px;
+    }
+
+.card__author {
+    font-weight: 700;
+    font-size:   calc(12px + 2 * (100vw / 1920));
+    line-height: 18px;
+    }
+
+.card__text {
+    font-weight: 400;
+    font-size:   calc(14px + 2 * (100vw / 1920));
+    line-height: 20px;
+    }
