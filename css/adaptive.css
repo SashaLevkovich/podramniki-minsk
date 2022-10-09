@@ -336,6 +336,11 @@
     .card__text, card__text {
         text-align: center;
         }
+
+
+    #footer-menu {
+        display: none;
+        }
     }
 
 
