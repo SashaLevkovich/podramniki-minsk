@@ -79,15 +79,15 @@
     .get-started {
         height:           550px;
         padding-top:      100px;
-        background-image: url("../img/getStarted/background1300.svg");
+        background-image: url("../img/getStarted/background1300.png");
         }
 
-    .wht {
-        background-image: url("../img/Why/background1300.svg");
+    .why {
+        background-image: url("../img/Why/background1300.png");
         }
 
     .contact {
-        background-image: url("../img/Contact/background1300.svg");
+        background-image: url("../img/Contact/background1300.png");
         }
     }
 
@@ -98,7 +98,7 @@
 
     .header__container {
 
-        padding-top: 5px;
+        padding-top:    5px;
         padding-bottom: 20px;
         }
 
@@ -126,7 +126,7 @@
 
     /*=====================================================*/
     .menu__list {
-        gap: 40px;
+        gap:            40px;
         padding-bottom: 10px;
         }
 
@@ -167,6 +167,16 @@
     .card__reviews {
         width: 450px;
         }
+
+    /*=====================================================*/
+    .contact-page__content {
+        align-items:     center;
+        flex-direction:  column;
+        }
+
+    .contact-page__column {
+        width: 100%;
+        }
     }
 
 @media (max-width: 767.98px) {
@@ -175,10 +185,10 @@
         }
 
     .get-started {
-        height: 700px;
-        display: flex;
+        height:          700px;
+        display:         flex;
         justify-content: center;
-        align-items: center;
+        align-items:     center;
         }
 
     /*=====================================================*/
@@ -283,7 +293,7 @@
     /*=====================================================*/
     .get-started__link {
         display:         flex;
-        flex-direction: column;
+        flex-direction:  column;
         justify-content: center;
         align-items:     center;
         }
@@ -311,7 +321,7 @@
 
     /*=====================================================*/
     .why__items {
-        gap: 80px;
+        gap: 90px;
         }
 
     /*=====================================================*/
@@ -323,13 +333,17 @@
     /*=====================================================*/
     .card {
         flex-direction: column;
-        width:          450px;
+        margin-bottom:  40px;
+        height:         70px;
+        }
 
+    .card__avatar {
         }
 
     .card__reviews {
         align-items: center;
         width:       300px;
+        height:      50px;
         gap:         10px;
         }
 
@@ -372,14 +386,15 @@
         font-weight: 400;
         line-height: 20px;
         }
+
     /*=====================================================*/
     .card__text {
-        width: 196px;
-        overflow: hidden;
-        display: -webkit-box;
+        width:              196px;
+        overflow:           hidden;
+        display:            -webkit-box;
         -webkit-line-clamp: 3;
         -webkit-box-orient: vertical;
-        line-height: 1.3em;
-        height: 3.9em;
+        line-height:        1.3em;
+        height:             3.9em;
         }
     }

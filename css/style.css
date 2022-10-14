@@ -9,6 +9,8 @@
 @import "feedback.css";
 @import "workshop.css";
 @import "catalog.css";
+@import "delivery.css";
+@import "contact-page.css";
 
 body {
     font-family: "Roboto", sans-serif;

@@ -1,6 +1,6 @@
 .why {
     padding:             120px 0;
-    background-image:    url("../img/Why/background1440.svg");
+    background-image:    url("../img/Why/background1440.png");
     background-repeat:   no-repeat;
     background-position: right;
     }
@@ -24,7 +24,7 @@
 
 .items__item {
     width:           152px;
-    padding: 10px;
+    padding:         10px;
     display:         flex;
     gap:             25px;
     flex-direction:  column;
