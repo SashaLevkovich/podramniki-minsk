@@ -3,6 +3,10 @@
         padding-top:      70px;
         background-color: #F9F9F9;
         }
+
+    .navbar {
+        left: 75px;
+        }
     }
 
 @media (max-width: 1161px) {
@@ -26,6 +30,7 @@
         font-weight: 400;
         line-height: 20px;
         }
+
     }
 
 @media (max-width: 1087px) {
@@ -66,6 +71,7 @@
         width: 750px;
         }
 
+    /*=====================================================*/
     .card {
         width: 750px;
         }
@@ -73,6 +79,8 @@
     .card__reviews {
         width: 750px;
         }
+
+
     }
 
 @media (max-width: 1300px) {
@@ -88,6 +96,23 @@
 
     .contact {
         background-image: url("../img/Contact/background1300.png");
+        }
+
+    /*=====================================================*/
+    .service {
+        align-items:     center;
+        justify-content: center;
+        gap:             30px;
+        padding:         10px;
+        }
+
+    .service__text p {
+        max-width: 830px;
+        }
+
+    /*=====================================================*/
+    .delivery__col {
+        text-align: center;
         }
     }
 
@@ -170,8 +195,8 @@
 
     /*=====================================================*/
     .contact-page__content {
-        align-items:     center;
-        flex-direction:  column;
+        align-items:    center;
+        flex-direction: column;
         }
 
     .contact-page__column {
@@ -351,9 +376,31 @@
         text-align: center;
         }
 
+    /*=====================================================*/
+    .navbar {
+        border-radius: 0;
+        flex-direction:  row;
+        align-items:     center;
+        justify-content: center;
+        width:           100%;
+        height:          50px;
+        bottom:          0;
+        left: 0;
+        }
 
+    /*=====================================================*/
     #footer-menu {
         display: none;
+        }
+    }
+
+@media (max-width: 425px) {
+    .catalog__services {
+        padding: 5px;
+        }
+
+    .service__text p {
+        width: 100%;
         }
     }
 

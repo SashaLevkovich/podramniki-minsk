@@ -16,9 +16,9 @@
 
         lastScroll = scrollPosition();
 
-        if ( lastScroll > 690 )
+        if ( lastScroll > 300 )
             header.classList.add( 'fix' );
-        else if ( lastScroll < 685 )
+        else if ( lastScroll < 300 )
             header.classList.remove( 'fix' );
 
     } );
