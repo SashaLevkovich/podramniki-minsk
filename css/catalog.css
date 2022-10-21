@@ -19,7 +19,6 @@
 .navbar {
     position:        fixed;
     left:            15px;
-    top: 80px;
 
     width:           65px;
 
@@ -69,13 +68,13 @@
     }
 
 .service__text ol {
-    max-width:   720px;
-    font-family: open sans, sans-serif;
-    font-size:   16px;
-    line-height: 30px;
-    color:       #585858;
+    max-width:     720px;
+    font-family:   open sans, sans-serif;
+    font-size:     16px;
+    line-height:   30px;
+    color:         #585858;
     margin-bottom: 10px;
-    padding-left: 20px;
+    padding-left:  20px;
     }
 
 .service__text ol, .service__text li {
