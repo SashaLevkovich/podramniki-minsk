@@ -67,6 +67,12 @@
     height: 100%;
     }
 
+.service__text h5 {
+    font-weight:    400;
+    font-size:      16px;
+    line-height:    35px;
+    }
+
 .service__text ol {
     max-width:     720px;
     font-family:   open sans, sans-serif;
