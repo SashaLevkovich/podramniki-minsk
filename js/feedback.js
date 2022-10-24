@@ -53,6 +53,7 @@ const cards = document.querySelector( '.feedback__cards' );
 
 cards.innerHTML = data.map( el => {
         return `
+ <article>
      <a href="https://vk.com/topic-122424448_35935184" target="_blank" class="feedback__card card">
 
                         <div class="card__avatar">
@@ -72,6 +73,7 @@ cards.innerHTML = data.map( el => {
                             </p>
                         </div>
                     </a>
+                     </article>
 `;
     },
 ).join( '' )

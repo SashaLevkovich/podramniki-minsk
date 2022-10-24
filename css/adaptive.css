@@ -68,16 +68,16 @@
 
     /*=====================================================*/
     .feedback__cards {
-        width: 750px;
+        width: 100%;
         }
 
     /*=====================================================*/
     .card {
-        width: 750px;
+        width: 100%;
         }
 
     .card__reviews {
-        width: 750px;
+        width: 100%;
         }
 
 
@@ -182,7 +182,7 @@
 
     /*=====================================================*/
     .card {
-        width: 450px;
+        gap: 30px;
         }
 
     .card__reviews {
@@ -350,20 +350,12 @@
         }
 
     /*=====================================================*/
-    .feedback__cards {
-        width: 300px;
-        gap:   135px;
-        }
-
-    /*=====================================================*/
     .card {
         flex-direction: column;
         margin-bottom:  40px;
-        height:         70px;
+        gap:            50px;
         }
 
-    .card__avatar {
-        }
 
     .card__reviews {
         align-items: center;
@@ -433,16 +425,5 @@
     .item__review {
         font-weight: 400;
         line-height: 20px;
-        }
-
-    /*=====================================================*/
-    .card__text {
-        width:              196px;
-        overflow:           hidden;
-        display:            -webkit-box;
-        -webkit-line-clamp: 3;
-        -webkit-box-orient: vertical;
-        line-height:        1.3em;
-        height:             3.9em;
         }
     }

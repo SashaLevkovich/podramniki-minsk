@@ -97,16 +97,21 @@
 
     color:           #FFF;
     transition:      all .3s;
+
+    cursor: pointer;
     }
 
-.btn a {
+.btn button {
+    background: none;
     color: #FFF;
+    cursor: pointer;
     }
 
 .btn:hover {
     background-color: #FD9652;
     transition:       all .3s;
     transform:        scale(1.1);
+    cursor: pointer;
     }
 
 /*=====================================================*/

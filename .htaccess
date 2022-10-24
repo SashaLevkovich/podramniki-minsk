@@ -1,0 +1,15 @@
+DirectoryIndex index index.html
+DirectorySlash off
+Options -Indexes -MultiViews
+# Rules
+# site.com/
+# site.com/index -> site.com
+# site.com	-> site.com/
+# site.com/file.html/ -> site.com/file/
+# site.com/file.html  -> site.com/file
+# site.com/dir/file.html ->site.com/file
+# site.com/dir/file.html/ -> site.com/file/
+# no ending slashes
+
+RewriteEngine On
+RewriteBase /
