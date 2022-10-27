@@ -10,6 +10,10 @@
     }
 
 @media (max-width: 1161px) {
+    .menu__list {
+        gap: 35px;
+        }
+
     .reviews__items {
         max-width: 880px;
         gap:       25px;
